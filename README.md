@@ -39,52 +39,6 @@ Key Features
 
 📊 Supported Models
 ModelDescriptionUse CaseSVM (Support Vector Machine)Finds optimal decision boundariesComplex symptom patternsGaussian Naive BayesProbabilistic classificationFast predictions, simple casesRandom ForestEnsemble of decision treesRobust, handles overfittingDecision TreeInterpretable tree-based decisionsUnderstanding decision logicVoting ClassifierCombines all modelsBest overall performance
-🚀 Quick Start
-Prerequisites
-bashPython 3.8+
-Jupyter Notebook
-Installation
-
-Clone or download the notebook
-
-bash# If using git
-git clone <repository-url>
-cd disease-prediction-system
-
-Install required packages
-
-bashpip install numpy pandas scikit-learn matplotlib seaborn jupyter openpyxl
-
-Download the dataset
-
-Visit: https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB/index.html
-Download the disease-symptom knowledge base
-Save as data/raw_data.xlsx
-
-
-Create directory structure
-
-disease-prediction-system/
-├── disease_prediction_notebook.ipynb
-├── data/
-│   └── raw_data.xlsx
-├── models/                 # Auto-created for saved models
-└── README.md
-Running the System
-
-Start Jupyter Notebook
-
-bashjupyter notebook
-
-Open the notebook
-
-Open disease_prediction_notebook.ipynb
-
-
-Run all cells
-
-Execute cells 1-20 in sequence
-The system will automatically train models and save them
 
 
 
