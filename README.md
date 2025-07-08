@@ -20,10 +20,8 @@ Key Features
 
 🏥 Disease Prediction System
 A comprehensive machine learning system that predicts diseases based on symptoms using multiple algorithms including SVM, Naive Bayes, Random Forest, Decision Trees, and Voting Classifier.
-Show Image
-Show Image
-Show Image
-Show Image
+
+
 🎯 Overview
 This system transforms medical knowledge from the Columbia University Disease-Symptom Knowledge Base into a machine learning-powered disease prediction tool. It can analyze symptom combinations and predict the most likely diseases with confidence scores.
 Key Features
