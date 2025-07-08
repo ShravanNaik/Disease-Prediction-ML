@@ -1,52 +1,53 @@
-🏥 Disease Prediction System
+# 🏥 Disease Prediction System
+
 A comprehensive machine learning system that predicts diseases based on symptoms using multiple algorithms including SVM, Naive Bayes, Random Forest, Decision Trees, and Voting Classifier.
 
+---
 
-🎯 Overview
+## 🎯 Overview
+
 This system transforms medical knowledge from the Columbia University Disease-Symptom Knowledge Base into a machine learning-powered disease prediction tool. It can analyze symptom combinations and predict the most likely diseases with confidence scores.
-Key Features
 
-✅ Multi-Model Prediction: Uses 5 different ML algorithms
-✅ Ensemble Learning: Voting classifier combines multiple models
-✅ Interactive Interface: User-friendly prediction system
-✅ Fuzzy Symptom Matching: Handles various symptom name formats
-✅ Confidence Scoring: Provides prediction confidence levels
-✅ Top-K Predictions: Shows multiple possible diseases
-✅ Educational Tools: Disease information and comparison functions
-✅ Advanced Analysis: Symptom frequency and disease complexity analysis
+---
 
+## 🔑 Key Features
 
+- ✅ **Multi-Model Prediction:** Uses 5 different ML algorithms
+- ✅ **Ensemble Learning:** Voting classifier combines multiple models
+- ✅ **Interactive Interface:** User-friendly prediction system
+- ✅ **Fuzzy Symptom Matching:** Handles various symptom name formats
+- ✅ **Confidence Scoring:** Provides prediction confidence levels
+- ✅ **Top-K Predictions:** Shows multiple possible diseases
+- ✅ **Educational Tools:** Disease information and comparison functions
+- ✅ **Advanced Analysis:** Symptom frequency and disease complexity analysis
 
+---
 
-🏥 Disease Prediction System
-A comprehensive machine learning system that predicts diseases based on symptoms using multiple algorithms including SVM, Naive Bayes, Random Forest, Decision Trees, and Voting Classifier.
+## 📊 Supported Models
 
+| Model                     | Description                        | Use Case                              |
+|---------------------------|------------------------------------|---------------------------------------|
+| **SVM (Support Vector Machine)** | Finds optimal decision boundaries | Complex symptom patterns              |
+| **Gaussian Naive Bayes**  | Probabilistic classification       | Fast predictions, simple cases        |
+| **Random Forest**         | Ensemble of decision trees         | Robust, handles overfitting           |
+| **Decision Tree**         | Interpretable tree-based decisions | Understanding decision logic           |
+| **Voting Classifier**     | Combines all models                | Best overall performance              |
 
-🎯 Overview
-This system transforms medical knowledge from the Columbia University Disease-Symptom Knowledge Base into a machine learning-powered disease prediction tool. It can analyze symptom combinations and predict the most likely diseases with confidence scores.
-Key Features
+---
 
-✅ Multi-Model Prediction: Uses 5 different ML algorithms
-✅ Ensemble Learning: Voting classifier combines multiple models
-✅ Interactive Interface: User-friendly prediction system
-✅ Fuzzy Symptom Matching: Handles various symptom name formats
-✅ Confidence Scoring: Provides prediction confidence levels
-✅ Top-K Predictions: Shows multiple possible diseases
-✅ Educational Tools: Disease information and comparison functions
-✅ Advanced Analysis: Symptom frequency and disease complexity analysis
+## 📖 Usage Guide
 
-📊 Supported Models
-ModelDescriptionUse CaseSVM (Support Vector Machine)Finds optimal decision boundariesComplex symptom patternsGaussian Naive BayesProbabilistic classificationFast predictions, simple casesRandom ForestEnsemble of decision treesRobust, handles overfittingDecision TreeInterpretable tree-based decisionsUnderstanding decision logicVoting ClassifierCombines all modelsBest overall performance
+### Basic Prediction
 
-
-
-📖 Usage Guide
-Basic Prediction
-python# Predict disease from symptoms
+```python
+# Predict disease from symptoms
 symptoms = ['chest pain', 'shortness of breath', 'dizziness']
 result = predict_disease(symptoms, 'VotingClassifier')
 display_prediction_results(result)
-Output:
+```
+
+**Output:**
+```
 🏥 DISEASE PREDICTION RESULTS
 ════════════════════════════════════════════════════════════
 🔍 Input Symptoms: chest pain, shortness of breath, dizziness
@@ -60,3 +61,6 @@ Output:
  3. myocardial infarction          (0.023)
  4. heart failure                  (0.012)
  5. arrhythmia                     (0.006)
+```
+
+---
